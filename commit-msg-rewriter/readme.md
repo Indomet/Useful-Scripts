@@ -23,7 +23,7 @@ Use this script with caution, especially in collaborative environments. Changing
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:Indomet/Useful-Bash-Scripts.git
    cd Useful-Bash-Scripts/commit-msg-rewriter
    ```
 Then put your repository that you want to edit the history inside this folder.
@@ -52,7 +52,7 @@ Then put your repository that you want to edit the history inside this folder.
 
    This command forcefully pushes the changes to the remote repository.
 
-   **Note:** Exercise caution when using `git push -f` as it can impact collaboration.
+   **Note:** Be careful when using `git push -f` as it can impact collaboration.
 
 The script will replace the original commit with the amended commit, and changes will be forcefully pushed to the remote repository using `git push -f`.
 
