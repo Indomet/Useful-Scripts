@@ -52,3 +52,7 @@ chmod +x ../change_commit_message.sh
 ```
 
 By following these steps, you can correct inaccurate committer information in your Git repository. Exercise caution and proceed only if you fully comprehend the potential consequences of modifying commit history, as this process rewrites the entire history and overrides the Git history in your GitHub branch.
+
+---
+If you found this script helpful, please consider giving it a star 🌟, or if you want to contribute and expand this repository, feel free to create a fork and submit a pull request.
+

@@ -63,3 +63,6 @@ Navigate to your Git repository that you want to edit, and execute:
 
 The script will replace the original commit with the amended commit, and changes will be forcefully pushed to the remote repository using `git push -f`.
 
+---
+If you found this script helpful, please consider giving it a star 🌟, or if you want to contribute and expand this repository, feel free to create a fork and submit a pull request.
+
