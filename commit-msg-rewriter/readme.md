@@ -8,15 +8,16 @@ This Bash script allows you to change the commit message of a specific commit in
 
 Use this script with caution, especially in collaborative environments. Changing commit messages can affect the commit history and may cause conflicts if others have already pulled the original commits.
 
+## Understand the Implications:
+
+- **Loss of Commit History:** Modifying commit information generates new commits, replacing the old ones and rewriting the commit history.
+- **Collaboration Challenges:** Rewriting history may lead to synchronization issues in collaborative environments.
+- **Disruption of Integrations:** Modifying commit history can disrupt integrations with tools like CI pipelines, issue trackers, and code review systems.
+
 ## Important Notes Before Use
 
 - Ensure that you are on a branch containing the commit you want to modify.
-- The script will not work if the branch is set as the default or is protected, . Make sure you have the necessary permissions.
-
-
-## Prerequisites
-
-- Bash shell
+- The script will not work if the branch is set as protected. Make sure you have the necessary permissions.
 
 ## Usage
 
@@ -29,9 +30,10 @@ Use this script with caution, especially in collaborative environments. Changing
 Then put your repository that you want to edit the history inside this folder.
 
 2. **Make the Script Executable:**
+Navigate to your Git repository that you want to edit, and execute:
 
    ```bash
-   chmod +x change_commit_message.sh
+   chmod +x ./change_commit_message.sh
    ```
 
 3. **Run the Script:**
