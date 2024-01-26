@@ -35,13 +35,13 @@ Place the repository you wish to  the history of inside this folder.
 Navigate to your Git repository that you want to edit, and execute:
 
 ```bash
-chmod +x ./change_commit_message.sh
+chmod +x ../change_commit_message.sh
 ```
 
 ## 3. Run the Command:
 
 ```bash
-./change_commit_author.sh
+../change_commit_author.sh
 ```
 
 By following these steps, you can correct inaccurate committer information in your Git repository. Exercise caution and proceed only if you fully comprehend the potential consequences of modifying commit history, as this process rewrites the entire history and overrides the Git history in your GitHub branch.

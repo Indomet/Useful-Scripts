@@ -33,13 +33,13 @@ Then put your repository that you want to edit the history inside this folder.
 Navigate to your Git repository that you want to edit, and execute:
 
    ```bash
-   chmod +x ./change_commit_message.sh
+   chmod +x ../change_commit_message.sh
    ```
 
 3. **Run the Script:**
 
    ```bash
-   ./change_commit_message.sh <commit-id> "<new-commit-message>"
+   ../change_commit_message.sh <commit-id> "<new-commit-message>"
    ```
 
    Replace `<commit-id>` with the actual commit ID you want to modify, and `<new-commit-message>` with the desired commit message.
