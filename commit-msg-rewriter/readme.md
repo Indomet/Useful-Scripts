@@ -1,11 +1,16 @@
 # Change Commit Message Script
 
+## 🛑🛑 WARNING 🛑🛑
+* The author of this script bears no responsibility for any harm resulting from its use.
+* Running this script implies your agreement to utilize it at your own risk, assuming full responsibility for any ensuing damage.
+* The author disclaims any liability for the consequences of employing this script.
+* The use of this script should not be associated with or encourage any form of criminal activity.
+
 ## Introduction
 
 This Bash script allows you to change the commit message of a specific commit in a Git repository while preserving the original commit date. This can be useful in situations where you need to update commit messages for clarity or consistency.
 
 ## Disclaimer
-
 Use this script with caution, especially in collaborative environments. Changing commit messages can affect the commit history and may cause conflicts if others have already pulled the original commits.
 
 ## Understand the Implications:

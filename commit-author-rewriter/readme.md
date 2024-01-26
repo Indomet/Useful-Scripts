@@ -1,5 +1,12 @@
 # How to Correct Committer Information in Git
 
+## 🛑🛑 WARNING 🛑🛑
+* The author of this script bears no responsibility for any harm resulting from its use.
+* Running this script implies your agreement to utilize it at your own risk, assuming full responsibility for any ensuing damage.
+* The author disclaims any liability for the consequences of employing this script.
+* The use of this script should not be associated with or encourage any form of criminal activity.
+
+## Introduction
 When you need to correct the committer information in your Git repository, follow these steps. However, be cautious, as modifying commit history using `git filter-branch` and forcefully pushing changes might have significant consequences. I reccommend you to have a **backup** of the project on case something goes wrong so that you can force push that version to the branch again.
 
 ## Disclaimer
