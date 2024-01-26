@@ -1,5 +1,9 @@
 #!/bin/bash
 
+## Clearing any previous backup from previous runs, ensuring a clean state so that 
+# the user can run this code multiple times
+git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch Rakefile' HEAD
+
 read -p "Enter your incorrect/old email: " OLD_EMAIL
 read -p "Enter your correct/new name: " CORRECT_NAME
 read -p "Enter your correct/new email: " CORRECT_EMAIL

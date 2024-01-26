@@ -1,5 +1,9 @@
 #!/bin/bash
 
+## Clearing any previous backup from previous runs, ensuring a clean state so that 
+# the user can run this code multiple times
+git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch Rakefile' HEAD
+
 # Check if the correct number of arguments is provided
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <commit-id> <new-commit-message>"
