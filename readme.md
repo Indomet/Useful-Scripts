@@ -6,15 +6,13 @@ Welcome to the Git Repository Tools! This collection of Bash scripts provides he
 
 ### How to Use
 
-1. **Change Commit Message**
-
-    To update commit messages while preserving the original commit date, refer to the [Change Commit Message README](./commit-msg-rewriter/readme.md).
-
-2. **Change Committer Information**
+1. **Change Committer Information**
 
     To correct the author of the commit (committer) information, follow the steps outlined in the [Change Committer Information README](./wrong-commiter-fix/readme.md).
 
+2. **Change Commit Message**
 
+    To update commit messages while preserving the original commit date, refer to the [Change Commit Message README](./commit-msg-rewriter/readme.md).
 
 **Note:** Always exercise caution and fully comprehend the potential consequences before modifying commit history. Make sure to have backups in case of any issues.
 

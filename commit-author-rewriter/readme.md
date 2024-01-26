@@ -25,7 +25,7 @@ You can run the provided Bash script directly without the need to clone the repo
 
 ```bash
 git clone git@github.com:Indomet/Useful-Bash-Scripts.git
-cd Useful-Bash-Scripts/change-commit-author
+cd Useful-Bash-Scripts/commit-author-rewriter
 ```
 
 Place the repository you wish to  the history of inside this folder.
