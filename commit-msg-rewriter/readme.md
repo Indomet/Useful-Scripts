@@ -29,8 +29,8 @@ Use this script with caution, especially in collaborative environments. Changing
 1. **Clone the Repository:**
 
    ```bash
-   git clone git@github.com:Indomet/Useful-Bash-Scripts.git
-   cd Useful-Bash-Scripts/commit-msg-rewriter
+   git clone git@github.com:Indomet/Useful-Scripts.git
+   cd Useful-Scripts/commit-msg-rewriter
    ```
 Then put your repository that you want to edit the history inside this folder.
 

@@ -31,8 +31,8 @@ You can run the provided Bash script directly without the need to clone the repo
 ## 1. Clone the Repository:
 
 ```bash
-git clone git@github.com:Indomet/Useful-Bash-Scripts.git
-cd Useful-Bash-Scripts/commit-author-rewriter
+git clone git@github.com:Indomet/Useful-Scripts.git
+cd Useful-Scripts/commit-author-rewriter
 ```
 
 Place the repository you wish to  the history of inside this folder.
@@ -42,7 +42,7 @@ Place the repository you wish to  the history of inside this folder.
 Navigate to your Git repository that you want to edit, and execute:
 
 ```bash
-chmod +x ../change_commit_message.sh
+chmod +x ../change_commit_author.sh
 ```
 
 ## 3. Run the Command:
