@@ -7,7 +7,7 @@
 * The use of this script should not be associated with or encourage any form of criminal activity.
 
 ## Introduction
-When you need to correct the committer information in your Git repository, follow these steps. However, be cautious, as modifying commit history using `git filter-branch` and forcefully pushing changes might have significant consequences. I reccommend you to have a **backup** of the project on case something goes wrong so that you can force push that version to the branch again.
+When you need to correct the committer information in your Git repository, follow these steps. However, be cautious, as modifying commit history using `git filter-branch` and forcefully pushing changes might have significant consequences. If something goes wrong you can follow the [Backup Step](#backup). 
 
 ## Disclaimer
 
@@ -52,6 +52,13 @@ chmod +x ../change_commit_author.sh
 ```
 
 By following these steps, you can correct inaccurate committer information in your Git repository. Exercise caution and proceed only if you fully comprehend the potential consequences of modifying commit history, as this process rewrites the entire history and overrides the Git history in your GitHub branch.
+
+
+## Backup
+If something goes wrong when you're trying to push changes forcefully to GitHub, you can fix it by going to the backup folder. There, find the right version and then push it forcefully by typing:
+```bash
+git push -f
+```
 
 ---
 If you found this script helpful, please consider giving it a star 🌟, or if you want to contribute and expand this repository, feel free to create a fork and submit a pull request.

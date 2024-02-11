@@ -7,8 +7,7 @@
 * The use of this script should not be associated with or encourage any form of criminal activity.
 
 ## Introduction
-
-This Bash script allows you to change the commit message of a specific commit in a Git repository while preserving the original commit date. This can be useful in situations where you need to update commit messages for clarity or consistency.
+This Bash script allows you to change the commit message of a specific commit in a Git repository while preserving the original commit date. This can be useful in situations where you need to update commit messages for clarity or consistency. If something goes wrong you can follow the [Backup Step](#backup). 
 
 ## Disclaimer
 Use this script with caution, especially in collaborative environments. Changing commit messages can affect the commit history and may cause conflicts if others have already pulled the original commits.
@@ -62,6 +61,12 @@ Navigate to your Git repository that you want to edit, and execute:
    **Note:** Be careful when using `git push -f` as it can impact collaboration.
 
 The script will replace the original commit with the amended commit, and changes will be forcefully pushed to the remote repository using `git push -f`.
+
+## Backup
+If something goes wrong when you're trying to push changes forcefully to GitHub, you can fix it by going to the backup folder. There, find the right version and then push it forcefully by typing:
+```bash
+git push -f
+```
 
 ---
 If you found this script helpful, please consider giving it a star 🌟, or if you want to contribute and expand this repository, feel free to create a fork and submit a pull request.
